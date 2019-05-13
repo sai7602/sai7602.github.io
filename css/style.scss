@@ -372,7 +372,7 @@ h3{
 }
 .group2{
     display: flex;
-    width: 36%;
+    width: 32%;
     height: 100px;
     background-color: #000000;
     position: relative;
@@ -380,10 +380,10 @@ h3{
     margin-right: 20px;
     z-index: 10;
     .text{
-        margin-right: 65px;
+        margin-right: 50px;
     }
     .symbol{
-        margin-left: 74px;
+        margin-left: 28px;
         background-image: url(../img/clock.png);
     }
     &:before{
