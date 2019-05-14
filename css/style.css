@@ -466,7 +466,7 @@ h3 span {
   background: #fff;
   content: '';
   bottom: 0;
-  right: -1px;
+  right: 0;
   border-top: 50px solid #ffffff;
   border-left: 50px solid #d9bf8f;
   border-bottom: 50px solid #ffffff;
@@ -502,7 +502,7 @@ h3 span {
   content: '';
   bottom: 0;
   right: 0;
-  margin-right: -49px;
+  margin-right: -50px;
   border-top: 50px solid #000000;
   border-right: 50px solid rgba(1, 1, 1, 0);
   border-bottom: 50px solid #000000;
@@ -548,9 +548,9 @@ h3 span {
   background: #fff;
   content: '';
   bottom: 0;
-  left: -1px;
+  left: 0;
   border-top: 50px solid #ffffff;
-  border-right: 50px solid transparent;
+  border-right: 50px solid #d9bf8f;
   border-bottom: 50px solid #ffffff;
 }
 
