@@ -1,0 +1,24 @@
+@media (max-width: 1440px) {
+  .wrapper {
+    width: 728px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 728px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    width: 728px;
+  }
+}
+
+@media (max-width: 540px) {
+  .wrapper {
+    width: 728px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
