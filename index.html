@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
 
@@ -24,13 +25,41 @@
                     <li><a href="#">My Wishlist</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
+                <div class="container">
+                    <input id="toggle" type="checkbox">
+                    <label class="toggle-container" for="toggle">
+                        <span class="button button-toggle"></span>
+                    </label>
+                    <!-- The nav menu -->
+                    <div class="nav">
+                        <a class="nav-item" href="#">Welcom MSG!</a>
+                        <a class="nav-item" href="#">My Acount</a>
+                        <a class="nav-item" href="#">My Wishlist</a>
+                        <a class="nav-item" href="#">Login</a>
+                        <a class="nav-item" href="#">Home</a>
+                        <a class="nav-item" href="#">Gallery</a>
+                        <a class="nav-item" href="#">Categories</a>
+                        <a class="nav-item" href="#">Pages</a>
+                        <div class="nav-item language">
+                            <a class="nav-item" href="#">English<span class="triangl">&#9660</span></a>
+                            <ul class="submenu-lang">
+                                <br>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Spanish</a></li>
+                                <li><a href="#">French</a></li>
+                                <li><a href="#">Italian</a></li>
+                            </ul>   
+                        </div>
+                    </div>
+               
+                </div>
             </div>
         </div>
         <div class="header-bottom">
             <div class="wrapper">
                 <ul class="main-menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Galelery</a></li>
+                    <li><a href="#">Gallery</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Pages</a></li>
                 </ul>
@@ -58,7 +87,7 @@
                     </li>
                     <li class="drop-lang">
                         <a href="#">English<span class="triangl">&#9660</span></a>
-                        <ul class="submenu2">
+                        <ul class="submenu-lang">
                             <li><a href="#">English</a></li><br>
                             <li><a href="#">Spanish</a></li><br>
                             <li><a href="#">French</a></li><br>
@@ -114,25 +143,23 @@
                     <div class="group group-shipping">
                         <div class="symbol"></div>
                         <div class="text">
-                            <h1>FREE SHIPPING</h1>
+                            <div class="group-big-text">FREE SHIPPING</div>
                             <h2>In Order Min $200</h2>
                         </div>
                     </div>
                     <div class="group group-return">
                         <div class="symbol">
-                                <!-- <i class="far fa-clock"></i> -->
                         </div>
                         <div class="text">
-                            <h1>30-DAYS RETURNS</h1>
+                            <div class="group-big-text">30-DAYS RETURNS</div>
                             <h2>Money Back  Guarantee</h2>
                         </div>
                     </div>
                     <div class="group group-support">
                         <div class="symbol">
-                                <!-- <i class="far fa-life-ring"></i> -->
                         </div>
                         <div class="text">
-                            <h1>24/7 SUPPORT</h1>
+                            <div class="group-big-text">24/7 SUPPORT</div>
                             <h2>Lifestyme Support</h2>
                         </div>
                     </div>
@@ -156,7 +183,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="" class="photo2">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -165,7 +192,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -174,7 +201,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -187,7 +214,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -200,7 +227,7 @@
                                 + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -209,7 +236,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -218,7 +245,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                <img src="./img/heart.png" alt="">
+                                <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                         <li class="photo-item">
@@ -231,7 +258,7 @@
                                     + add to cart
                             </div>
                             <div class="heart">
-                                    <img src="./img/heart.png" alt="">
+                                    <img src="./img/heart.png" alt="" class="animated flip">
                             </div>
                         </li>
                     </ul>
@@ -293,7 +320,7 @@
                         <div class="body">
                             <p><ul class="social-menu social-menu-footer">
                                 <li><a href="#">
-                                        <!-- Блок для створення символу соцмереж. Старт -->
+                                        <!-- social icon footer. Start -->
                                         <div class="symbol1-soc">
                                             <div class="circle-soc">
                                                 <i class="fas fa-circle"></i>
@@ -302,13 +329,13 @@
                                                 <i class="fab fa-facebook-f"></i>
                                             </div>
                                         </div>
-                                        <!-- Блок для створення символу соцмереж. Кінець -->
+                                        <!-- social icon footer. End -->
                                     </a>
                                 </li>
                                 
                                 <li>
                                     <a href="#">
-                                        <!-- Блок для створення символу соцмереж. Старт -->
+                                        <!-- social icon footer. Start -->
                                         <div class="symbol1-soc">
                                             <div class="circle-soc">
                                                 <i class="fas fa-circle"></i>
@@ -317,7 +344,7 @@
                                                 <i class="fab fa-twitter"></i>
                                             </div>
                                         </div>
-                                        <!-- Блок для створення символу соцмереж. Кінець -->
+                                        <!-- social icon footer. End -->
                                     </a>
                                 </li>
                                     <li><a href="#">
@@ -332,8 +359,8 @@
                                         </a>
                                 </li>
                                     <li><a href="#"> 
-                                        <!-- Блок для створення символу соцмереж. Старт -->
-                                        <div class="symbol1-soc">
+                                            <!-- social icon footer. Start -->     
+                                            <div class="symbol1-soc">
                                             <div class="circle-soc">
                                                 <i class="fas fa-circle"></i>
                                             </div>
@@ -341,11 +368,11 @@
                                                 <i class="fab fa-instagram"></i>
                                             </div>
                                         </div>
-                                        <!-- Блок для створення символу соцмереж. Кінець -->
+                                        <!-- social icon footer. End -->
                                     </a>
                                 </li>
                                 <li><a href="#"> 
-                                        <!-- Блок для створення символу соцмереж. Старт -->
+                                        <!-- social icon footer. Start -->
                                         <div class="symbol1-soc">
                                             <div class="circle-soc">
                                                 <i class="fas fa-circle"></i>
@@ -354,7 +381,7 @@
                                                     <i class="fas fa-rss"></i>
                                             </div>
                                         </div>
-                                        <!-- Блок для створення символу соцмереж. Кінець -->
+                                        <!-- social icon footer. End -->
                                     </a>
                                 </li>
                                 </ul></p>

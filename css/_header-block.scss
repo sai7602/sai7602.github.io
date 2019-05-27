@@ -108,7 +108,6 @@
     }
 }
 
-
 .drop-lang{
     background-color: black;
     text-transform: uppercase;
@@ -122,13 +121,20 @@
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
     padding-right: 5px;
+    &:hover .submenu-lang{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
 }
+}
+
 .social-menu .drop-lang a{
     color: white;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
 }
-.submenu2 {
+
+.submenu-lang{
     position: absolute;
     width: 117px;
     z-index: 10;
@@ -142,17 +148,11 @@
         margin-bottom: 8px;
         text-align: right;
         padding-right: 5px;
+
     }
 }
 
-li:hover .submenu2{
-    visibility: visible;
-    opacity: 1;
-    -webkit-transition: 0.5s ease-in-out; 
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-}
+
 .triangl{
     padding-left: 20px;
 }
