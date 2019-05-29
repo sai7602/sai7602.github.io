@@ -215,12 +215,21 @@
 
     .group{
         .group-big-text{
-            padding-bottom: 2px;
+            padding-bottom: 8px;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 10px;
         }
         .text{
             text-align: center;
             width: 0 auto;
-            height: 87px;
+            height: 63px;
+        }
+    }
+    .group-shipping{
+        .text{
+            margin-right: 50px;
         }
     }
 // support
