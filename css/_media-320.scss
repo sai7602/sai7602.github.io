@@ -170,12 +170,9 @@ $angle-support-block: 10deg;
 
 .photos{
     grid-template-columns: auto;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    grid-row-gap: 6px;
     .photo-item{
         transform: scale(1);
-        height: 185px;
+        height: 166px;
     }
 }
 

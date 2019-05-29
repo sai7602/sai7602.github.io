@@ -454,7 +454,7 @@
           filter: brightness(0.8);
 }
 
-.submenu-lang {
+.language .submenu-lang {
   position: relative;
   z-index: 10;
   opacity: 0;
@@ -464,9 +464,9 @@
   visibility: hidden;
 }
 
-.submenu-lang li {
-  margin-top: -4px;
-  margin-bottom: -14px;
+.language .submenu-lang li {
+  margin-top: 6px;
+  margin-bottom: 0px;
   text-align: right;
   padding-right: 5px;
 }

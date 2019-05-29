@@ -8,7 +8,7 @@ $angle-support-block: 10deg;
     $scale-dimond:0.5;
 
     .wrapper{
-        width: 500px;
+        width: 450px;
     }
 
     .container{
@@ -213,12 +213,9 @@ $angle-support-block: 10deg;
 
 .photos{
     grid-template-columns: auto auto;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    grid-row-gap: 6px;
     .photo-item{
         transform: scale(1);
-        height: 280px;
+        height: 232px;
     }
 }
 

@@ -35,7 +35,7 @@
    
     .submenu-lang{
         position: absolute;
-        width: 66px;
+        // width: 66px;
         z-index: 10;
         opacity: 0;
         background-color: #242424;
@@ -130,7 +130,7 @@
         opacity: 0;
         margin-top: 1px;
         margin-bottom: 4px;
-        margin-left: 10px;
+        // margin-left: 10px;
         visibility: hidden;
         li {
             margin-top: 8px;
@@ -190,7 +190,7 @@
 }
 // support
     .support-group{
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
     .group{
@@ -205,12 +205,12 @@
 //collection
 
 .photos{
-    margin-top: 6px;
-    margin-bottom: 6px;
-    grid-row-gap: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-row-gap: 15px;
     .photo-item{
         transform: scale(1);
-        height: 284px;
+        height: 274px;
     }
 }
 
