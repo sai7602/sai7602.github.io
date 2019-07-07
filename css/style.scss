@@ -203,25 +203,6 @@ a {
     background-repeat: no-repeat;
 }
 
-// .arrows {
-//     position: absolute;
-//     justify-items: center;
-//     font-size: 54px;
-//     color: #ffffff;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     width: 1350px;
-//     ul {
-//         display: flex;
-//         justify-content: space-between;
-//         justify-items: center;
-//         li:hover {
-//             text-shadow: 0 0 15px #ffffff;
-//             cursor: pointer;
-//         }
-//     }
-// }
 .center {
     position: absolute;
     left: 50%;
@@ -646,7 +627,7 @@ h3 {
     }
 }
 
-#modal-login {
+.modal-login {
     display: none;
     position: fixed;
     z-index: 3200;
@@ -662,8 +643,8 @@ h3 {
     margin: 30px;
 }
 
-#user-name,
-#user-password {
+.user-name,
+.user-password {
     height: 30px;
     padding-left: 10px;
     border: none;

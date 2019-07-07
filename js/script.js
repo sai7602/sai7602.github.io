@@ -7,12 +7,14 @@ $(document).ready(function() {
             $('.button-up').hide(1000);
         }
     });
+
     $('.button-up').on('click', function(e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
         }, 1000)
     });
+
     $('.image-slick').slick({
         dots: true,
         infinite: true,
@@ -22,10 +24,17 @@ $(document).ready(function() {
         prevArrow: '<div class="prev"></div>)',
         nextArrow: '<div class="next"></div>)',
     });
+
     $('.login').on('click', function() {
-        $('#modal-login').show(1000);
+        $('.modal-login').show(1000);
     });
     $('#button-sign-in').on('click', function() {
-        $('#modal-login').hide(1000);
+        $('.modal-login').hide(1000);
     });
+
+    $(document).click(function(event) {
+        if (!$(event.target).is("#modal-login, .login")) {
+            $('.modal-login').hide(1000);
+        }
+    })
 });

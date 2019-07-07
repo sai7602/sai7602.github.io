@@ -564,8 +564,8 @@
   .shop-now {
     position: absolute;
     left: 50%;
-    -webkit-transform: translate(-50%, -32%);
-            transform: translate(-50%, -32%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 180px;
     height: 50px;
     font-size: 22px;
@@ -595,7 +595,7 @@
             transform: translateY(3px) rotate(45deg) scale(0.9);
   }
   .slick-dots-custom {
-    bottom: 35px;
+    bottom: 22px;
   }
   .support-group {
     margin-top: 70px;
@@ -831,8 +831,8 @@
   .shop-now {
     position: absolute;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -75%);
+            transform: translate(-50%, -75%);
     width: 138px;
     height: 40px;
     font-size: 16px;
@@ -1111,6 +1111,9 @@
     text-align: right;
     padding-right: 5px;
   }
+  .slick-dots-custom {
+    bottom: 15px;
+  }
   .slick-dots-custom li button:before {
     font-size: 18px;
   }
@@ -1147,8 +1150,8 @@
   .shop-now {
     position: absolute;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -120%);
+            transform: translate(-50%, -120%);
     width: 88px;
     height: 16px;
     font-size: 12px;
@@ -1353,7 +1356,10 @@
     padding: 10px;
     display: block;
   }
-  .top-menu, .main-menu, .social-menu-header, .phone {
+  .top-menu,
+  .main-menu,
+  .social-menu-header,
+  .phone {
     display: none;
   }
   .logo {
@@ -1422,6 +1428,7 @@
   .shop-now {
     position: absolute;
     left: 50%;
+    top: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 38px;
@@ -1433,6 +1440,25 @@
     margin: -25% 10% 0 0;
     width: 100%;
     height: 0;
+  }
+  .slick-dots-custom {
+    bottom: 15px;
+  }
+  .slick-dots-custom li {
+    margin: 0;
+  }
+  .slick-dots-custom li button:before {
+    font-size: 14px;
+  }
+  .prev::after {
+    left: 12px;
+    width: 27px;
+    height: 30px;
+  }
+  .next::before {
+    right: 12px;
+    width: 27px;
+    height: 30px;
   }
   #switch1:checked ~ .controls label:nth-child(3),
   #switch2:checked ~ .controls label:nth-child(1),
@@ -1634,7 +1660,10 @@
     margin: -25px 10px 0;
     display: block;
   }
-  .top-menu, .main-menu, .social-menu-header, .phone {
+  .top-menu,
+  .main-menu,
+  .social-menu-header,
+  .phone {
     display: none;
   }
   .logo {
@@ -1696,6 +1725,7 @@
   .shop-now {
     position: absolute;
     left: 50%;
+    top: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 38px;
@@ -1706,6 +1736,15 @@
     margin: -25% 10% 0 0;
     width: 100%;
     height: 0;
+  }
+  .slick-dots-custom {
+    bottom: 10px;
+  }
+  .slick-dots-custom li {
+    margin: 0 -1px;
+  }
+  .slick-dots-custom li button:before {
+    font-size: 10px;
   }
   /*customize switcn for left arrow*/
   #switch1:checked ~ .controls label:nth-child(3),

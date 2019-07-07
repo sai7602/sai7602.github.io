@@ -75,6 +75,7 @@
             }
         }
         .slick-dots-custom {
+            bottom: 15px;
             li {
                 button {
                     &:before {
@@ -120,7 +121,7 @@
         .shop-now {
             position: absolute;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -120%);
             width: 88px;
             height: 16px;
             font-size: 12px;
